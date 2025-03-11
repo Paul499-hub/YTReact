@@ -5,7 +5,38 @@ npm i  // installs dependancies
 npm run dev 
 
 
+============================= GIT ==============================
 
-
-================ GIT 
+--------------- INITIALIZE
 git init   // creates local git folder 
+git remote add origin <your-github-repo-url>  // not used
+git push -u origin main    // not used
+
+--------------- LINK TO ONLINE 
+git branch -M main   // renames branch to main
+git remote add origin https://github.com/Paul499-hub/react_one_repo.git
+
+-------------- COMMIT/PUSH
+git add .
+git commit -m "Message"
+git push -u origin main
+
+-------------- MERGE DIFFERENT BRANCH
+git checkout main    // changes branch into main
+git pull origin main      // pull latest changes from main branch - good practice
+git branch           // shows current branch
+
+---------- CREATE NEW BRANCH
+git checkout -b new-branch-name     // create new LOCAL branch and go to new branch
+git push -u origin new-branch-name  // create ONLINE branch
+git branch -m new-branch-name       // RENAME BRANCH
+
+-- DELETE BRANCH 
+git branch -d test-branch   // delete local 
+git push origin --delete test   // delete branch online
+
+
+temp 
+
+color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
