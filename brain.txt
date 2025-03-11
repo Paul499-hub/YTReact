@@ -1,0 +1,11 @@
+========================== INITIALIZE REACT PROJECT + DEPENDANCIES 
+
+npm create vite@latest
+npm i  // installs dependancies
+npm run dev 
+
+
+
+
+================ GIT 
+git init   // creates local git folder 
